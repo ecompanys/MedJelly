@@ -1,1 +1,7 @@
-This file was created by Android Studio (I/O Preview) AI-130.725679 for binding GitHub repository
+MedJelly will provide you daily updated information on your favorite beach in the Barcelona area this summer. In this application you will find information on:
+
+- Medusas:  Daily jellyfish/medusas status on the beach, as reported to us by an expert. This will include presence and absence of jellies. When jellyfish is reported as observed, the application will inform you on the type of jelly fish that is present as well the level of danger that it represents to swimmers (since not all jellies are danger to humans)
+
+- Waves and currents conditions:  Daily status on the conditions for going for a bath or swim on the beach. The application will inform you on the type of these conditions according to the color of the flags applicable to the beach.
+
+- Weather conditions:  Daily air temperature, wind and the ultra-violet (UV) levels are reported for each beach.
