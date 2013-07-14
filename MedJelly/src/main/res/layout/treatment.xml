@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp" >
+
+        <ImageView
+                android:layout_width="383dp"
+                android:layout_height="115dp"
+                android:id="@+id/itreatmenta"
+                android:contentDescription="@string/it"
+                android:scaleType="fitXY"
+                android:src="@drawable/title"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:id="@+id/ttreatmenta"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:background="#FCD9B9"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt1" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/ttreatmentb"/>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:text="@string/tt3"
+                android:id="@+id/ttreatmento"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentb"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentc"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt4" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentc"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentd"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt5" />
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentd"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmente"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt6" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmente"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentf"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt7" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentf"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentg"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt8" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentg"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmenth"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt9" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmenth"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmenti"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt10" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmenti"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentj"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt11" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentj"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentk"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt12" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentk"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="340dip"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentl"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt13" />
+
+            <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/itreatmentl"
+                    android:src="@drawable/flecha"
+                    android:layout_gravity="right|center_vertical"/>
+        </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentm"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt14" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentm"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" >
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="340dip"
+                android:id="@+id/ttreatmentn"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tt15" />
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/itreatmentn"
+                android:src="@drawable/flecha"
+                android:layout_gravity="right|center_vertical"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
