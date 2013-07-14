@@ -1,4 +1,4 @@
-package jellyfish.java;
+package com.scienceomatic.medjelly;
 
 import android.app.Activity;
 import android.os.Bundle;
